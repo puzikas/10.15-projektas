@@ -1,0 +1,11 @@
+body {
+	background-color: lightgray;
+}
+.row {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding: 5px;
+}
+h5 {
+	margin: 7px;
+}
