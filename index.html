@@ -9,18 +9,20 @@
 <body>
 	<div class="container">
 		<div class="row">
-		<label class="text-dark">Padangos aukštis (mm)</label>
+		<label class="text-dark"><h4>Padangos aukštis (mm)</h4></label>
 			<input id="tyre" type="text" class="form-control mb-2" placeholder="milimetrai">
 		</div>
 		<div class="row">
-			<label class="text-dark">Ratlankio dydis (coliai)</label>
+			<label class="text-dark"><h4>Ratlankio dydis (coliai)</h4></label>
 			<input id="rim" type="text"  class="form-control mb-2" placeholder="coliai">
 		</div>
 		<div class="row">
-			<label class="text-dark">Arkos spindulys (cm)</label>
+			<label class="text-dark"><h4>Arkos spindulys (cm)</h4></label>
 			<input id="size" type="text"  class="form-control mb-2" placeholder="centimetrai">
 		</div>
 		<button class="btn btn-primary" onclick="calculate()">Skaičiuoti</button>
+		<hr>
+		<div id="result"></div>
 	</div>
 	<script type="text/javascript" src="script.js" ></script>
 </body>
